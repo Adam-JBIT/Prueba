@@ -13,7 +13,7 @@ CREATE TABLE [SYSPRO].[TSCIJPR3](
 	[TPR3_TEX_PROTO] [varchar](8000) NOT NULL,
 	[TPR3_DES_PROTO_E] [varchar](4000) NOT NULL,
 	[TPR3_TEX_PROTO_E] [varchar](8000) NOT NULL
-) ON [BSCIJCEN_DATA]
+) ON [PRIMARY]
 GO
 INSERT [SYSPRO].[TSCIJPR3] ([TPR3_COD_IT], [TPR3_COD_PROTOCOLO], [TPR3_COD_TDT_GRUPO], [TPR3_DES_PROTO], [TPR3_TEX_PROTO], [TPR3_DES_PROTO_E], [TPR3_TEX_PROTO_E]) VALUES (CAST(221 AS Decimal(3, 0)), CAST(111001 AS Decimal(6, 0)), N'72             ', N'Dispone de las instalaciones necesarias para la elaboración de alimentos seguros, así como el equipo y utillaje necesario para que las manipulaciones se realicen de forma correcta.', N'Como mínimo cuenta con las siguientes zonas y equipos:
 - Recinto de Cocina suficientemente aislado de cualquier otro ajeno a este fin, que evite la contaminación de los alimentos que en el mismo de manipulan. En la actualidad este sector presenta diversas modalidades de elaboración de alimentos que condicionan el concepto de recinto de cocina. Se ha considerado que este recinto podrá estar delimitado por las estructuras constructivas clásicas de paredes, techos y puertas. También podrá estar delimitados por equipos y mobiliario siempre que se mantengan a una distancia suficiente con la ubicación del público para evitar contaminaciones cruzadas.

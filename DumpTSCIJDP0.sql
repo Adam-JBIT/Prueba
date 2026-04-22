@@ -13,7 +13,7 @@ CREATE TABLE [SYSPRO].[TSCIJDP0](
 	[TDP0_DES_CORTA_E] [varchar](50) NOT NULL,
 	[TDP0_DES_LARGA] [varchar](200) NOT NULL,
 	[TDP0_DES_LARGA_E] [varchar](200) NOT NULL
-) ON [BSCIJCEN_DATA]
+) ON [PRIMARY]
 GO
 INSERT [SYSPRO].[TSCIJDP0] ([TDP0_COD_PROCED], [TDP0_COD_HIS_ALTA], [TDP0_COD_HIS_BAJA], [TDP0_DES_CORTA], [TDP0_DES_CORTA_E], [TDP0_DES_LARGA], [TDP0_DES_LARGA_E]) VALUES (CAST(1 AS Decimal(3, 0)), CAST(N'2022-03-11T08:01:20.4300000' AS DateTime2), CAST(N'0001-01-01T00:00:00.0000000' AS DateTime2), N'Proceso de Autorización Sanitaria', N'Proceso de Autorización Sanitaria_E', N'Proceso de Autorización Sanitaria', N'Proceso de Autorización Sanitaria_E')
 GO

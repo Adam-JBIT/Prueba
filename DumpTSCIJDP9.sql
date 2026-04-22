@@ -20,7 +20,7 @@ CREATE TABLE [SYSPRO].[TSCIJDP9](
 	[TDP9_TEX_ACCION] [varchar](200) NULL,
 	[TDP9_DES_ACCION_C] [varchar](200) NOT NULL,
 	[TDP9_DES_ACCION_E] [varchar](200) NOT NULL
-) ON [BSCIJCEN_DATA]
+) ON [PRIMARY]
 GO
 INSERT [SYSPRO].[TSCIJDP9] ([TDP9_COD_ACCION], [TDP9_TIP_ACCION], [TDP9_NOM_TABLA], [TDP9_COD_TABLA], [TDP9_IDE_TABLA], [TDP9_IDE_TAB_TDATO], [TDP9_IDE_TAB_UNID], [TDP9_LONG_MAX], [TDP9_ORDEN], [TDP9_VALORES], [TDP9_DEFAULT], [TDP9_TEX_ACCION], [TDP9_DES_ACCION_C], [TDP9_DES_ACCION_E]) VALUES (CAST(100 AS Decimal(8, 0)), N'D', N'               ', N'               ', N'               ', N'1              ', N'               ', CAST(50 AS Decimal(4, 0)), CAST(0 AS Decimal(6, 0)), N'', N'0', N'', N'Introduzca el código asociado a la inspección municipal (opcional)', N'Introduzca el código asociado a la inspección municipal (opcional)_E')
 GO

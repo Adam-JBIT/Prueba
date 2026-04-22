@@ -12,7 +12,7 @@ CREATE TABLE [SYSPRO].[TSCIJPR1](
 	[TPR1_DES_TIPO_E] [varchar](100) NOT NULL,
 	[TPR1_TEX_TIPO_E] [varchar](4000) NOT NULL,
 	[TPR1_FEC_BAJA] [date] NOT NULL
-) ON [BSCIJCEN_DATA]
+) ON [PRIMARY]
 GO
 INSERT [SYSPRO].[TSCIJPR1] ([TPR1_COD_TIPO], [TPR1_DES_TIPO], [TPR1_TEX_TIPO], [TPR1_DES_TIPO_E], [TPR1_TEX_TIPO_E], [TPR1_FEC_BAJA]) VALUES (CAST(1070 AS Decimal(5, 0)), N'Comedores colectivos: Establecimientos de hostelería grupo II.', N'Establecer%20las%20condiciones%20y%20requisitos%20espec%EDficos%20que%20deben%20cumplir%20los%20establecimientos%20de%20hosteler%EDa%20del%20grupo%20II%2C%20de%20acuerdo%20a%20su%20riesgo%20sanitario.%0D%0ALos%20establecimientos%20de%20hosteler%EDa%20del%20grupo%20II%20son%20aquellos%20comedores%20colectivos%20que%20elaboran%20y%20sirven%20men%FAs%20o%20comidas%20completas%2C%20muy%20variadas%2C%20con%20ingredientes%20de%20diversa%20naturaleza%20y%20origen%2C%20que%20sufren%20preparaciones%20tambi%E9n%20variadas%2C%20y%20con%20servicio%20de%20los%20mismos%20en%20un%20comedor%20o%20zona%20habilitada%20al%20efecto.%20Se%20incluyen%20establecimientos%20de%20hosteler%EDa%20con%20men%FA%20y/o%20carta%2C%20y%20asimilables.', N'DESCRIPCION_EUSKERA', N'TEXTO_EUSKERA', CAST(N'0001-01-01' AS Date))
 GO
